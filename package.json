@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "yarn parcel build src/index.pug --public-url . && yarn vs build -s A4 -o resume.pdf dist/index.html"
+  },
+  "dependencies": {
+    "@parcel/transformer-pug": "2.0.0-nightly.849",
+    "parcel": "1.12.3",
+    "stylus": "^0.55.0",
+    "@vivliostyle/cli": "^4.2.1"
+  }
+}

@@ -1,0 +1,72 @@
+html
+  head
+    link(href='style/main.styl' rel='stylesheet')
+  body
+    header
+      h1 GIVEUP: 難解な問題に対する新手法
+      .author 発表者：あ  指導教員：ああああ
+
+    .column2
+      h2 はじめに
+
+      p これまでの研究ではやたらめったら難しいことをする傾向にあり、それによる実験・実証の経済的・人的コストの増大が問題になっていた。我々はこの問題を解決すべく、GIVEUP (Google It. Vigorously, Effectively, Ultimately, Postpone it.) という手法を提案する。この手法の要点は次の通りである。
+
+        ul
+          li まずはググる
+          li それで解決されない場合、力強く（vigorously）、実質的に（effectively）、最終的に（ultimately）先延ばしにする
+          li いつか解決する
+
+        | さあ、家に帰って寝よう！
+
+        figure
+          img(src="assets/images/truck.jpg")
+          figcaption お先真っ暗である
+
+      // HACK: see https://stackoverflow.com/questions/6424088/css-column-breaks
+      // 強制改行↓
+      div(style="display: inline-block;")
+        h2 方法
+
+      h3 Google
+
+      p Googleはいわずと知れた検索エンジンである。別にDuckDuckGoを使ってもかまわない（ただし名前がアホっぽいので、後述する実質的な先延ばしには向かないであろう）。
+
+      h3 力強く（vigorously）
+
+      p あくまで力強く先延ばしにしなければならない。これは撤退、ましてや失敗ではないのだ。ただ解決するまで粘り強く待っているだけなのである。
+
+      h3 実質的に（effectively）
+
+      p 形式的にはどうであれ、実質的に先延ばしすることは、メンツを保ち先延ばしの期間を長期化することに有効であることが、
+        a.ref(href="#me") 俺
+        | の研究でわかっている。今日も研究室に行って、何もしないでいよう。
+
+      p 情報系の読者諸君は、<code>/dev/ttyUSB0, /dev/urandom</code>を<code>cat</code>されたい。なにやらわけのわからない文字列が出ている。形式的な苦悩を再現するには、この文字列をにらみながらコーヒーをすすればいいだろう。
+
+      figure
+        pre.frame.
+          000e16f0: f038 678e 9544 0034 0b77 
+          000e1700: 0db9 13fa ea9a 3e84 a25b 
+          000e1710: 2f10 e1f3 a5db 15f5 b314 
+          000e1720: 1ce6 6f98 f81c 7659 3875 
+          000e1730: 22e2 fe84 040f 491b 12e7 
+          000e1740: cd86 02fa 8cc4 4052 ec8f 
+          000e1750: 069a 75cd 8f46 29d5 d819 
+          000e1760: 9946 0ace 7be5 e5d8 199d 
+          000e1770: 7cf1 e163 630a f740 fb09 
+          000e1780: da08 400e 9c0a 9987 460c 
+          000e1790: a448 e083 b2fe 4b2b 9b0e 
+        figcaption なんかのデータ。なんだか読めそうではあるが、ホントはただのランダムなバイト列である。ふざけんな。そんなときこそ GIVEUP。
+
+      h3 最終的に（ultimately）
+
+      p 途中で心が落ち着かなくなってきたり、誰かに進捗を聞かれたりするかもしれない。でも<strong>諦めるな！</strong> 何か成果を出してしまったとしても、最終的にやたらめったら難しい問題を先延ばしにする。このことこそが肝心だ。
+
+      h2 まとめ
+
+      p 僕はもう疲れました。アンパンマン
+
+
+      h2.nocounter 参考文献
+      ol.reference
+        li#me 俺, すべてを来世に任せよう（後編）, やけくそ学会, 2021
